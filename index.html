@@ -17,7 +17,7 @@
         </div>
         <hr class="my-4">
 
-        <div class="px-5 py-8 flex flex-col gap-2">
+        <div id="todoscontainer" class="px-5 py-8 flex flex-col gap-2">
             <div class="flex justify-between items-center">
                 <h4>Todo Item 1</h4>
                 <button class="bg-green-500 p-2 rounded-lg ">Done</button>
@@ -26,7 +26,7 @@
             <div class="flex justify-between items-center">
                 <h4>Todo Item 2</h4>
                 <button class="bg-green-500 p-2 rounded-lg ">Done</button>
-            </div>
+           </div>
 
             <div class="flex justify-between items-center">
                 <h4>Todo Item 2</h4>
@@ -37,13 +37,13 @@
 
        <div class="flex justify-between items-center px-5">
         <input class="px-4 py-2 w-full rounded-lg text-gray-800" type="text" placeholder="Enter Item">
-        <button class="bg-orange-500 ml-2 p-2 rounded-lg shadow-lg">Submit</button>
+        <button onclick="addtodo()" class="bg-orange-500 ml-2 p-2 rounded-lg shadow-lg">Add</button>
 
 
        </div>
 
     </div>
-    <script src="main.css"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
